@@ -314,6 +314,8 @@ private:
     bool dev_mode;
     void LoadFromFile(const std::filesystem::path& file_path, bool is_title_keys);
 
+	template <size_t Size>
+
     void DeriveGeneralPurposeKeys(std::size_t crypto_revision);
 
     void DeriveETicketRSAKey();
