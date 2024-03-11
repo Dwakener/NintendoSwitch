@@ -6,6 +6,7 @@
 #include <functional>
 #include <memory>
 #include <vector>
+#include <QPushButton>
 #include <QWidget>
 #include "yuzu/configuration/configuration_shared.h"
 
